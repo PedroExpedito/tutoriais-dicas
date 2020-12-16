@@ -2,10 +2,11 @@
 
 Quase todos já usaram Wine ou usam todos os dias para jogar
 alguns jogos ou até alguns software que não a versão nativa para
-o Gnu/Linux mais muitos se confudem pensando que o wine é um
+o Gnu/Linux porem muitos se confudem pensando que o wine é um
 emulador! Mais se não é um emulador é oque ?
 
 ##### Bem o [Site Official](https://www.winehq.org/) definido como:
+
 ```
 Wine (originally an acronym for "Wine Is Not an Emulator") is a
 compatibility layer capable of running Windows applications on
@@ -97,6 +98,7 @@ interessante e util para saber oque realmente um programa faz.
 Um software muito utilizado para este fim é o ```strace```
 disponivel nos repositorios do Debian poder ser instalado com o
 apt:
+
 ``` apt install strace```
 
 para utilizar é muito simples ```strace
@@ -123,9 +125,11 @@ um pouco "bugados".
 
 #### Conclusão
 
-Concluise que o Wine é um programa que funciona semelhante a
+Conclui que o Wine é um programa que funciona semelhante a
 windows API traduzindo chamadas API para syscall POSIX podendo
-assim [PE](https://pt.wikipedia.org/wiki/Portable_Executable) funcionarem no GNU/Linux sem grande perca de desempenho
-por não precisar emular todas as caracteristicas do sistema da
+assim executaveis
+[PE](https://pt.wikipedia.org/wiki/Portable_Executable)
+funcionarem em OS POSIX sem grande perca de desempenho por não
+precisar emular todas as caracteristicas do sistema da
 microsoft.
 
