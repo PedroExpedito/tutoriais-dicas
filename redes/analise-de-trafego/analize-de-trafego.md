@@ -464,3 +464,72 @@ Caminhos para aprofundar em redes
 ## Simulador CORE
 
 
+# Parte 2
+
+## Sumario
+
+* CoreEmu em contianer Docker
+
+* Fluxo TCP
+
+* Protocolo ARP
+
+* Roteamento visto no Modelo OSI
+
+* Bridges
+
+* Endereço MAC em roteamento e em bridge
+
+* Conclusão
+
+# CORE Emu
+
+[github](https://github.com/coreemu/core)
+
+[Container] Docker (https://hub.docker.com/r/d3f0/coreemu_vnc)
+
+
+# RFC 793
+
+[RFC: 793] (https://tools.ietf.org/html/rfc793)
+
+O TCP "custa mais caro" que o IP
+
+# Retransmissão
+
+2 tipos:
+
+Retransmissão rápida: fast forward
+
+Se em 1 segundo não receber o ach, mando denovo, em 2 segundos não receber Ach
+
+Retransmissão a pedido:
+
+O TCP faz um caculo para saber qual a media para chegar um pacote, e se passar deste valor ele envia denovo
+
+## gravando PCAP
+
+tcpdump -ni lo -v -w teste.pcap
+
+## Para ler o PCAP
+
+tcpdump -n -r teste.pcap
+
+-S para ler como absoluto
+
+ack significa que o sabe o próximo a ser
+recebido
+
+Ack não tem numero de sequencia
+
+## Trafego anômalo
+
+## ARP serve para ?
+
+O serve para vários endereçamentos lógicos e
+de hardware
+
+```tcpdump -n arp```
+
+
+
