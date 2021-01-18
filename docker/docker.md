@@ -127,6 +127,16 @@ Passar a tag `--privileged`
 
 `cat <arquivo.tar> | docker import -<nome>[:<tag>]`
 
+### Docker Volumes
+
+Docker volumes é uma forma de compartilhar uma pasta entre o host e o contaier ou até mesmo
+entre host container e outro container
+
+criando um volume:
+`docker volume create <nomedovolume>`
+
+a tag é `-v` ou seja `docker run -e <pastahost>:<container>`
+
 ### Conclusão
 
 Conclui-se que o Docker é uma ferramenta leve fácil de usar e que resolve a maioria dos problemas
