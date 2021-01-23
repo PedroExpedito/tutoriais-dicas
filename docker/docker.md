@@ -137,6 +137,12 @@ criando um volume:
 
 a tag é `-v` ou seja `docker run -e <pastahost>:<container>`
 
+### btrfs
+
+é o sistema de arquivos recomendado para utilizar com docker por utilizar a tecnologia
+[copy on write](https://pt.wikipedia.org/wiki/C%C3%B3pia_em_grava%C3%A7%C3%A3o)
+
+
 ### Conclusão
 
 Conclui-se que o Docker é uma ferramenta leve fácil de usar e que resolve a maioria dos problemas
