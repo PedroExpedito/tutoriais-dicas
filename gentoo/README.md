@@ -27,6 +27,17 @@ muitos menos modulos.
 * **Minimalismo** Com gentoo você faz muitas escolhas muitas mesmo e você tem mais vantagem
 de utilizar um sistema enxuto.
 
+## Pontos negativos
+
+* Utiliza muito espaço em disco! Fazendo um comparativo com o Debian com pacotes que ocupariam
+2gb no gentoo ocupa 23gb ou mais, isso acontece por que o gentoo guarda muitos arquivos em cache
+além que para compilar precisa de muitas bibliotecas de desenvolvimento.
+
+* Tempo de compilação para quem tem um processador comum pode ser muito lerdo chegando ate
+dias para compilar um sistema "completo" exemplo chromium+kde-full
+
+
+
 
 
 
