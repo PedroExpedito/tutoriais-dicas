@@ -1,7 +1,7 @@
 # Gentoo
 
-Gentoo é uma meta distribuição com suporte a diversas arquiteturas e neste
-artigo vou tentar explicar como foi minha experiencia.
+Gentoo é uma meta distribuição com suporte a diversas arquiteturas e
+vou tentar explicar como foi minha experiencia.
 
 ## Mitos
 
@@ -10,13 +10,13 @@ artigo vou tentar explicar como foi minha experiencia.
 de diferente é a [USE]() que
 
 **Gentoo é mais rápido** Rápido em que ? Seria a primeira pergunta  a se fazer
-quando alguém faz uma afirmação dessas. Este mito começou por causa do fork do GCC
-conhecido como  EGCS que gerava binários cerca de 10% mais eficiente, porém hoje
-as mudanças do EGCS já foram integradas ao GCC oficial.
+quando alguém faz uma afirmação dessas. Este mito começou por causa do fork do
+GCC conhecido como  EGCS que gerava binários cerca de 10% mais eficiente, porém
+hoje as mudanças do EGCS já foram integradas ao GCC oficial.
 
 **Gentoo compila espefificamente para seu hardware** Essa é uma das piores, o
-que você pode fazer é um kernel para seu hardware que vai ser mais limpo e com
-muitos menos modulos.
+que você pode fazer é um kernel customizado para seu hardware que vai ser mais
+limpo e com menos modulos.
 
 ## Pontos positivos
 
@@ -29,15 +29,19 @@ de utilizar um sistema enxuto.
 
 ## Pontos negativos
 
-* Utiliza muito espaço em disco! Fazendo um comparativo com o Debian com pacotes que ocupariam
-2gb no gentoo ocupa 23gb ou mais, isso acontece por que o gentoo guarda muitos arquivos em cache
-além que para compilar precisa de muitas bibliotecas de desenvolvimento.
+* Utiliza muito espaço em disco! Fazendo um comparativo com o Debian com
+pacotes que ocupariam 2gb no gentoo ocupa 23gb ou mais, isso acontece por que o
+gentoo guarda muitos arquivos em cache além que para compilar precisa de muitas
+bibliotecas de desenvolvimento.
 
-* Tempo de compilação para quem tem um processador comum pode ser muito lerdo chegando ate
-dias para compilar um sistema "completo" exemplo chromium+kde-full
+* Tempo de compilação para quem tem um processador comum pode ser muito lerdo
+chegando ate dias para compilar um sistema "completo" exemplo chromium+kde-full
 
+* Muito pouco suporte do upstream e nem sempre é fácil solucionar apenas
+baixando o fonte e compilando é um processo lento.
 
+## Conclusão
 
-
-
-
+A menos que você tenha um processador muito poderoso e muita vontade de aprender
+gentoo não vai ser uma boa opção por utilizar muito tempo para coisas triviais
+que hoje em dia é escasso.
