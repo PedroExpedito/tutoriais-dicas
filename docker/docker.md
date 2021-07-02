@@ -97,6 +97,7 @@ Prefiro este:
 `docker commit <container_id> <repositorio>[:tag]`
 
 #### Movendo arquivos do host para o contêiner
+keyword: copiando arquivos do host para contêiner.
 
 `docker cp <path do host> <id-container:path>`
 
@@ -136,6 +137,7 @@ criando um volume:
 `docker volume create <nomedovolume>`
 
 a tag é `-v` ou seja `docker run -e <pastahost>:<container>`
+
 
 ### btrfs
 
